@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-import sys
-import csv
-
-reader = csv.DictReader(sys.stdin)
-for row in reader:
+import sys, csv
+r = csv.DictReader(sys.stdin)
+for row in r:
     try:
         subject = row['subject'].strip()
         marks = int(row['marks'])

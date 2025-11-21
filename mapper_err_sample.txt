@@ -1,0 +1,4 @@
+  File "/Users/vaishnavi/hadoop-student-results/mapper_student.py", line 14
+    print(sid + \"|\" + name + \"\t\" + str(marks))
+                 ^
+SyntaxError: unexpected character after line continuation character
